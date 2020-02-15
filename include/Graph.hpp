@@ -32,8 +32,6 @@ public:
 
     std::set<int> getVertices();
 
-    void addEdge(int src, int dest);
-
 private:
 
     void readGraphFromFile(const char * inputFile);
